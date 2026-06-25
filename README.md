@@ -1,6 +1,6 @@
-Quantium Data Analytics Virtual Experience Program
+# Quantium Data Analytics Virtual Experience Program
 
-Project Overview
+## Project Overview
 
 This project was completed as part of the Quantium Data Analytics Virtual Experience Program on Forage. The simulation provided hands-on experience in data analytics, customer segmentation, exploratory data analysis (EDA), commercial insights generation, and strategic recommendations for a retail client.
 
@@ -8,7 +8,7 @@ The objective was to analyze transaction and customer data to uncover purchasing
 
 ⸻
 
-Business Problem
+## Business Problem
 
 Quantium’s retail client wanted to better understand:
 
@@ -21,57 +21,46 @@ Using transaction and customer datasets, the analysis focused on generating acti
 
 ⸻
 
-Project Tasks
+## Project Tasks
 
-Task 1: Data Preparation & Cleaning
+### Task 1: Data Preparation and Customer Analytics
+Files: 
+* Quantium_DA_Task_1.ipynb
+* QVI_purchase_behaviour.csv
+* QVI_transaction_data.xlsx
 
-* Imported transaction and customer datasets
-* Assessed data quality issues
-* Removed invalid transactions
-* Converted date variables into proper formats
-* Identified and handled outliers
-* Verified consistency across datasets
+- Data cleaning: changed the date from integer format to datetime data type, removed salsas and outliers 
+- Analysed purchase behaviours of different customers (total sales, grouped by:
+  - LIFESTAGE: customer attribute that identifies whether a customer has a family or not and what point in life they are at
+  - MEMBER_TYPE: customer segmentation used to differentiate shoppers by the price point of products they buy and the types of products they buy. It is used to identify whether customers may spend more for quality or brand or whether they will purchase the cheapest options.
+- A deeper dive into the Mainstream Young Singles/Couples segment to determine their preferences (chip brand and packet size) over other segments
 
-Task 2: Exploratory Data Analysis (EDA)
+Insights:
+- The three highest contributing segments to total sales are: 1. Budget older families, 2. Mainstream young singles/couples, 3. Mainstream retirees
+- Older families have largest avg no of packets purchased per customer, while the mainstream young singles/couples have the largest population
+- Across most segments, Kettles chips and 175g packets are the most purchased
+- Minstream young singles/couple are 28% more likely to purchase Tyrells chips than other segments, and 32% more likely to purchase 270g chip packets which are Twisties chips
 
-Performed analysis on:
+### Task 2: Experimentation and Uplift Testing
+Files: 
+* Quantium_DA_Task_2.ipynb
+* QVI_data.csv
+  
+- Three stores (77, 86, 88) undergo a new store layout with the trial period in Feb-Apr 2019
+- Used the total sales and number of customers metric to generate a combined score to compare the trial and potential control stores with using Pearson correlations and magnitude distances
+- Determined if difference in performance of those metrics of the control stores (stores with the highest score) compared to the trial store is significant using hypothesis test
 
-* Total sales performance
-* Product categories
-* Purchase frequency
-* Customer demographics
-* Brand preferences
-* Pack size preferences
-* Seasonal purchasing trends
-
-Key visualizations included:
-
-* Sales trends over time
-* Customer segment distributions
-* Product preference comparisons
-* Revenue contribution by segment
-
-Task 3: Customer Segmentation Analysis
-
-Analyzed customer groups based on:
-
-* Life stage
-* Premium customer status
-* Spending behavior
-* Purchase frequency
-
-Identified high-value customer segments contributing the largest share of revenue.
-
-Task 4: Commercial Insights
-
-Generated business recommendations by examining:
-
-* Average transaction value
-* Product purchasing patterns
-* Customer loyalty behavior
-* Segment profitability
-
-Recommendations were tailored to help improve customer acquisition and retention strategies.
+**Insights:**
+- Control and trial store pairs are:
+  - 77 and 233
+  - 86 and 155
+  - 88 and 237
+- For the total sales, store 77 saw a statistically significant increase (above the 95% control threshold) in Mar and Apr while store 86 saw an increase in Mar
+- For the number of customers, both stores 77 and 86 saw significant increases in at least 2 months
+- No significant change in performance due to the trial in store 88
+  
+### Task 3: Analytics and commercial application
+- Prepared a report in Powerpoint highlighting key insights from Tasks 1 and 2 using the Pyramid Principle
 
 ⸻
 
@@ -86,7 +75,7 @@ Tools & Technologies
 
 ⸻
 
-Key Insights
+### Key Insights
 
 High-Value Customer Segment
 
@@ -112,7 +101,7 @@ Revenue growth was primarily driven by:
 
 ⸻
 
-Business Recommendations
+### Business Recommendations
 
 1. Develop targeted marketing campaigns for high-value customer segments.
 2. Increase promotions for top-performing products.
@@ -122,7 +111,7 @@ Business Recommendations
 
 ⸻
 
-Skills Demonstrated
+### Skills Demonstrated
 
 * Data Cleaning
 * Data Wrangling
@@ -137,7 +126,7 @@ Skills Demonstrated
 
 ⸻
 
-Learning Outcomes
+### Learning Outcomes
 
 Through this project, I gained experience in:
 
@@ -149,6 +138,6 @@ Through this project, I gained experience in:
 
 ⸻
 
-Certificate
+### Certificate
 
 Completed the Quantium Data Analytics Virtual Experience Program offered through Forage.
