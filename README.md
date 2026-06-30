@@ -41,6 +41,10 @@ Insights:
 - Across most segments, Kettles chips and 175g packets are the most purchased
 - Minstream young singles/couple are 28% more likely to purchase Tyrells chips than other segments, and 32% more likely to purchase 270g chip packets which are Twisties chips
 
+### Visulaizations
+![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/total_sales_1.png)
+![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/cutomer_lifestage_2.png)
+
 ### Task 2: Experimentation and Uplift Testing
 Files: 
 * Quantium_DA_Task_2.ipynb
@@ -58,7 +62,15 @@ Files:
 - For the total sales, store 77 saw a statistically significant increase (above the 95% control threshold) in Mar and Apr while store 86 saw an increase in Mar
 - For the number of customers, both stores 77 and 86 saw significant increases in at least 2 months
 - No significant change in performance due to the trial in store 88
-  
+
+### Visulaizations
+![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/TrialvsControl_3.png)
+![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/TrialvsControl_4.png)
+![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/TrialvsControl_5.png)
+![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/performance_6.png)
+![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/performance_7.png)
+![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/performance_8.png)
+
 ### Task 3: Analytics and commercial application
 - Prepared a report in Powerpoint highlighting key insights from Tasks 1 and 2 using the Pyramid Principle
 
