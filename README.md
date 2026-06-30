@@ -6,8 +6,6 @@ This project was completed as part of the Quantium Data Analytics Virtual Experi
 
 The objective was to analyze transaction and customer data to uncover purchasing behaviors, identify valuable customer segments, and provide data-driven business recommendations.
 
-⸻
-
 ## Business Problem
 
 Quantium’s retail client wanted to better understand:
@@ -19,11 +17,10 @@ Quantium’s retail client wanted to better understand:
 
 Using transaction and customer datasets, the analysis focused on generating actionable insights for business stakeholders.
 
-⸻
-
 ## Project Tasks
 
 ### Task 1: Data Preparation and Customer Analytics
+
 Files: 
 * Quantium_DA_Task_1.ipynb
 * QVI_purchase_behaviour.csv
@@ -35,7 +32,7 @@ Files:
   - MEMBER_TYPE: customer segmentation used to differentiate shoppers by the price point of products they buy and the types of products they buy. It is used to identify whether customers may spend more for quality or brand or whether they will purchase the cheapest options.
 - A deeper dive into the Mainstream Young Singles/Couples segment to determine their preferences (chip brand and packet size) over other segments
 
-Insights:
+**Insights:**
 - The three highest contributing segments to total sales are: 1. Budget older families, 2. Mainstream young singles/couples, 3. Mainstream retirees
 - Older families have largest avg no of packets purchased per customer, while the mainstream young singles/couples have the largest population
 - Across most segments, Kettles chips and 175g packets are the most purchased
@@ -46,6 +43,7 @@ Insights:
 ![alt text](https://github.com/asna-amjad/Quantium-Data-Analytics-Job-Simulation/blob/08cd1ed00ddebf78e86f383e56a8c09effd3d02d/QVI_Images/cutomer_lifestage_2.png)
 
 ### Task 2: Experimentation and Uplift Testing
+
 Files: 
 * Quantium_DA_Task_2.ipynb
 * QVI_data.csv
@@ -74,9 +72,7 @@ Files:
 ### Task 3: Analytics and commercial application
 - Prepared a report in Powerpoint highlighting key insights from Tasks 1 and 2 using the Pyramid Principle
 
-⸻
-
-Tools & Technologies
+**Tools & Technologies**
 
 * Python
 * Pandas
@@ -84,8 +80,6 @@ Tools & Technologies
 * Matplotlib
 * Seaborn
 * Jupyter Notebook
-
-⸻
 
 ### Key Insights
 
@@ -111,8 +105,6 @@ Revenue growth was primarily driven by:
 * Average transaction value
 * Brand loyalty
 
-⸻
-
 ### Business Recommendations
 
 1. Develop targeted marketing campaigns for high-value customer segments.
@@ -120,8 +112,6 @@ Revenue growth was primarily driven by:
 3. Introduce loyalty programs to encourage repeat purchases.
 4. Personalize offers based on purchasing behavior and customer demographics.
 5. Optimize inventory planning around customer demand patterns.
-
-⸻
 
 ### Skills Demonstrated
 
@@ -136,8 +126,6 @@ Revenue growth was primarily driven by:
 * Insight Generation
 * Strategic Recommendations
 
-⸻
-
 ### Learning Outcomes
 
 Through this project, I gained experience in:
@@ -147,8 +135,6 @@ Through this project, I gained experience in:
 * Extracting actionable business insights
 * Presenting findings to stakeholders
 * Applying data analytics techniques to support business decisions
-
-⸻
 
 ### Certificate
 
